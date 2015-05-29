@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+	android:orientation="vertical">
+	
+	<!--<TextView
+		android:id="@+id/textview"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+	/>-->
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Sort"
+		android:id="@+id/button" />
+
+	<EditText
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/search"
+		android:text="Search Contact Here" />
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Search"
+		android:id="@+id/button2"
+		android:layout_gravity="right" />
+
+	<ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+		android:divider="#000000"
+		android:dividerHeight="1dp"
+	/>
+
+</LinearLayout>
